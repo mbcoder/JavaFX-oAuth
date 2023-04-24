@@ -19,6 +19,7 @@ module com.mycompany.app {
   requires com.esri.arcgisruntime;
   requires javafx.graphics;
   requires org.slf4j.nop;
+  requires jdk.httpserver;
 
   exports com.mycompany.app;
 }
